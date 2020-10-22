@@ -2,7 +2,8 @@ package be.pxl.ja.streamingservice.controller;
 
 import be.pxl.ja.streamingservice.StreamingService;
 import be.pxl.ja.streamingservice.StreamingServiceFactory;
-import be.pxl.ja.streamingservice.model.StreamingPlan;
+import be.pxl.ja.streamingservice.exception.DuplicateEmailException;
+import be.pxl.ja.streamingservice.model.*;
 import be.pxl.ja.streamingservice.util.PasswordUtil;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXDatePicker;

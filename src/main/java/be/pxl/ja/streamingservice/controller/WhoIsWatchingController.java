@@ -1,5 +1,8 @@
 package be.pxl.ja.streamingservice.controller;
 
+import be.pxl.ja.streamingservice.exception.TooManyProfilesException;
+import be.pxl.ja.streamingservice.model.Account;
+import be.pxl.ja.streamingservice.model.Profile;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
